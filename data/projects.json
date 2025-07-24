@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Grand Palace Hotel",
+    "location": "Kochi, Kerala",
+    "scale": "5-Star Luxury Resort",
+    "description": "Complete steel fabrication for 200-room luxury resort including structural framework and decorative elements.",
+    "category": "hotel",
+    "image": "images/projects/grand-palace.jpg"
+  },
+  {
+    "name": "Marina Bay Resort",
+    "location": "Alleppey, Kerala",
+    "scale": "Boutique Hotel",
+    "description": "Custom architectural metalwork for waterfront resort with modern design elements.",
+    "category": "hotel",
+    "image": "images/projects/marina-bay.jpg"
+  },
+  {
+    "name": "Tech Park Complex",
+    "location": "Infopark, Kochi",
+    "scale": "500,000 sq ft",
+    "description": "Multi-story commercial complex with innovative steel framework and modern facade systems.",
+    "category": "commercial",
+    "image": "images/projects/tech-park.jpg"
+  },
+  {
+    "name": "Shopping Mall Structure",
+    "location": "Thrissur, Kerala",
+    "scale": "300,000 sq ft",
+    "description": "Large-scale retail complex with intricate steel framework and architectural features.",
+    "category": "commercial",
+    "image": "images/projects/shopping-mall.jpg"
+  },
+  {
+    "name": "Manufacturing Facility",
+    "location": "Coimbatore, Tamil Nadu",
+    "scale": "Industrial Complex",
+    "description": "Heavy-duty industrial structure for automotive parts manufacturing with specialized equipment support.",
+    "category": "industrial",
+    "image": "images/projects/manufacturing.jpg"
+  },
+  {
+    "name": "Custom Machinery Framework",
+    "location": "Angamaly, Kerala",
+    "scale": "Specialized Equipment",
+    "description": "Precision-engineered support structures for heavy machinery installation.",
+    "category": "custom",
+    "image": "images/projects/machinery.jpg"
+  }
+]
