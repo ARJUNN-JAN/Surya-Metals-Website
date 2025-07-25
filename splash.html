@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Metals - Loading</title>
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="preload" href="videos/surya-metals-logo.mp4" as="video" type="video/mp4">
+</head>
+<body>
+    <div class="splash-container" id="splash-container">
+        <!-- Video Container -->
+        <div class="video-container">
+            <video 
+                id="logo-video" 
+                autoplay 
+                muted 
+                playsinline
+                preload="auto"
+                poster="images/logo.png">
+                <source src="videos/surya-metals-logo.mp4" type="video/mp4">
+                <p>Your browser doesn't support video playback.</p>
+            </video>
+        </div>
+
+        <!-- Loading Indicator (shown while video loads) -->
+        <div class="loading-indicator" id="loading-indicator">
+            <div class="spinner"></div>
+            <p>Loading Surya Metals...</p>
+        </div>
+
+        <!-- Skip Button (optional) -->
+        <button class="skip-btn" id="skip-btn">
+            <i class="fas fa-forward"></i> Skip Intro
+        </button>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Font Awesome for skip icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="js/splash.js"></script>
+</body>
+</html>
